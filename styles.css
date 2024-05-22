@@ -1,0 +1,461 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+
+  /* Style the body */
+  body {
+    display: block;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    margin: 0 !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  a {
+    color: hsl(210, 10%, 33%);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* Header/Logo Title */
+  .header {
+
+    padding-top: 10.5rem;
+    text-align: center;
+    background: url('images/bg-header-desktop.png') center no-repeat;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .logo {
+    padding-bottom: 2.5rem;
+
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 30px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .history-description {
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    word-wrap: break-word;
+    width: 30%;
+  }
+
+  /* Buttons */
+  .flex-container-buttons {
+    display: flex;
+    flex-direction: row;
+    font-size: 12.5px;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    margin-bottom: 100px;
+
+  }
+
+
+  .download-ios {
+    transition: opacity 0.15s;
+    background-color: hsl(171, 66%, 44%);
+    border-bottom-color: hsl(171, 46%, 40%);
+    box-shadow: 0 6px 16px -2px hsl(171, 66%, 44%, 0.5);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid;
+    color: white;
+    border-radius: 25px;
+    width: 150px;
+  }
+
+  .download-ios:hover {
+    background-color: hsl(171, 66%, 44%);
+
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid;
+    color: white;
+    border-radius: 25px;
+    width: 150px;
+    cursor: pointer
+  }
+
+  .download-mac {
+    transition: opacity 0.15s;
+    background-color: hsl(233, 100%, 69%);
+    border-bottom-color: hsl(233, 80%, 59%);
+    box-shadow: 0 6px 16px -2px hsl(233, 100%, 69%, 0.5);
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid;
+    color: white;
+    border-radius: 25px;
+    width: 150px;
+  }
+
+  .download-mac:hover {
+    background-color: hsl(233, 100%, 69%);
+    padding: 10px;
+    margin-left: 10px;
+    border: 1px solid;
+    color: white;
+    border-radius: 25px;
+    width: 150px;
+    cursor: pointer;
+  }
+
+
+  .title {
+
+    width: 100%;
+    text-align: center;
+  }
+
+  .sub-title {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+
+  }
+
+  .sub-desc {
+    display: flex;
+    flex-direction: row;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+
+  }
+
+  .container {
+    padding: 0.5rem;
+    column-count: 2;
+  }
+
+  .workflow-container {
+
+    text-align: center;
+    padding: 15px;
+  }
+
+  .middle-content {
+    display: flex;
+    flex-direction: row;
+
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+
+  }
+
+  .right-para {
+
+    color: hsl(201, 11%, 66%);
+  }
+
+  .image-mid {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+  .three-columns {
+    display: flex;
+
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* columns */
+  .three-columns>* {
+    width: 100%;
+
+  }
+
+  .three-columns-para {
+    color: hsl(201, 11%, 66%);
+  }
+
+  .four-logos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+
+  }
+
+  .four-logos>div {
+    width: 50%;
+    padding: 2.5rem;
+  }
+
+
+  /* Footer */
+
+  .footer {
+    background: hsl(0, 0%, 97%);
+    display: grid;
+    justify-content: center;
+    padding: calc(58em / 18);
+  }
+
+  .footer>img {
+    width: calc(57em / 18);
+  }
+
+  .footer-content {
+    margin: calc(36em / 18) 0 calc(48em / 18);
+    display: grid;
+    gap: calc(23em / 18);
+  }
+
+  .footer-content div {
+    display: grid;
+    gap: calc(23em / 18);
+  }
+
+  .footer-content a {
+    height: fit-content;
+    transition: filter 0.15s;
+  }
+
+  .footer-content a:hover {
+    filter: invert(58%) sepia(11%) saturate(2693%) hue-rotate(122deg) brightness(104%) contrast(85%);
+  }
+
+  .footer * {
+    justify-self: center;
+  }
+
+  .socials a {
+    display: flex;
+    font-size: 0;
+    transition: filter 0.15s;
+  }
+
+  .socials a:hover {
+    filter: invert(58%) sepia(11%) saturate(2693%) hue-rotate(122deg) brightness(104%) contrast(85%);
+  }
+
+  .socials a::before {
+    font-size: calc(27.7rem / 18);
+  }
+
+  .socials {
+    gap: calc(39em / 18);
+    display: flex;
+  }
+
+  /* Media Queries for mobile devices */
+  @media screen and (max-width: 600px) {
+    .main-title {
+      padding-left: 25px;
+      width: 90%;
+      text-align: center;
+    }
+
+    .title {
+      word-wrap: break-word;
+
+
+    }
+
+    .container {
+      text-align: center;
+      width: 100%
+    }
+
+    .history-description {
+      color: hsl(201, 11%, 66%);
+
+
+      width: 76%;
+    }
+
+    .flex-container-buttons {
+
+      margin-top: 100px;
+      justify-content: center;
+
+      width: 100%;
+      flex-direction: column;
+      margin-bottom:100px;
+     
+
+    }
+
+    .download-ios {
+      transition: opacity 0.15s;
+      background-color: hsl(171, 66%, 44%);
+      border-bottom-color: hsl(171, 46%, 40%);
+      box-shadow: 0 6px 16px -2px hsl(171, 66%, 44%, 0.5);
+      padding: 15px;
+      margin-bottom: 1.5rem;
+      border: 1px solid;
+      color: white;
+      border-radius: 25px;
+      width: 80%;
+      margin-left: calc(50.5em / 18);
+    }
+
+    .download-ios:hover {
+      background-color: hsl(171, 66%, 44%);
+
+      padding: 15px;
+      width: 80%;
+      border: 1px solid;
+      color: white;
+      border-radius: 25px;
+      margin-left: calc(50.5em / 18);
+      cursor: pointer
+    }
+
+    .download-mac {
+      margin-left: calc(10.5em / 18);
+      transition: opacity 0.15s;
+      background-color: hsl(233, 100%, 69%);
+      border-bottom-color: hsl(233, 80%, 59%);
+      box-shadow: 0 6px 16px -2px hsl(233, 100%, 69%, 0.5);
+      padding: 15px;
+      margin-left: 0;
+      border: 1px solid;
+      color: white;
+      border-radius: 25px;
+      width: 80%;
+      margin-left: calc(50.5em / 18);
+    }
+
+    .download-mac:hover {
+      background-color: hsl(233, 100%, 69%);
+      padding: 15px;
+      margin-left: 0;
+      border: 1px solid;
+      color: white;
+      width: 80%;
+      border-radius: 25px;
+      margin-left: calc(50.5em / 18);
+      cursor: pointer;
+    }
+
+
+
+    .four-logos {
+
+      justify-content: center;
+      padding: 140px;
+      width: 100%;
+      flex-direction: column;
+
+    }
+
+    .image-left {
+      width: 350px;
+    }
+
+    .image-middle {
+      width: 350px;
+    }
+
+  }
+
+  @media screen and (max-width: 992px) {
+    .four-logos {
+
+      justify-content: center;
+
+      width: 100%;
+      flex-direction: column;
+
+    }
+  }
+
+  /** Medium devices (tablets, 768px and up) **/
+  @media (min-width: 768px) {
+
+
+
+
+
+    .footer {
+      grid-template-columns: 20% 38% 36%;
+      gap: calc(36em / 18);
+    }
+
+    .footer>img {
+      align-self: center;
+    }
+
+    .socials {
+      align-items: center;
+      justify-content: flex-end;
+      justify-self: flex-end;
+      margin-right: calc(80em / 18);
+      gap: calc(24em / 18);
+    }
+
+    .socials img {
+      height: fit-content;
+    }
+
+    .footer-content * {
+      justify-self: flex-start;
+    }
+
+    .footer-content div {
+      gap: calc(17em / 18);
+    }
+
+    .footer-content {
+      margin: 0;
+      gap: calc(70em / 18);
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .three-columns {
+      flex-direction: column;
+    }
+
+    .container {
+      padding: 0.5rem;
+      column-count: 1;
+    }
+  }
